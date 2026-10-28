@@ -1,0 +1,23 @@
+{
+  "name": "khushi-product",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file-if-exists=.env --env-file-if-exists=.env.local server.mjs",
+    "check": "node --check server.mjs && node --check api/index.mjs && node --check public/app.js",
+    "test": "node --test tests/*.test.mjs",
+    "db:check": "node --env-file-if-exists=.env --env-file-if-exists=.env.local scripts/check-mongodb.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "3.0.2",
+    "jose": "6.0.10",
+    "mongodb": "6.15.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.4"
+  }
+}

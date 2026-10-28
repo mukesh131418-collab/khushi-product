@@ -1,0 +1,1 @@
+{"version":2,"builds":[{"src":"api/index.mjs","use":"@vercel/node"},{"src":"public/**","use":"@vercel/static"}],"routes":[{"src":"/api/(.*)","dest":"/api/index.mjs"},{"src":"/(.*\\.(?:css|js|png|svg))","dest":"/public/$1"},{"src":"/.*","dest":"/public/index.html"}]}

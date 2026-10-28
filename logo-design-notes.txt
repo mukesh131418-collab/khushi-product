@@ -1,0 +1,6 @@
+Use case: logo-brand / edit of supplied Khushi Product logo.
+Tool: built-in image_gen (no API key).
+Final prompt: Refine the supplied Khushi droplet/leaf/wordmark logo, preserving its green/gold identity. Add a green-and-gold ribbon with exact text "100% pure kachi gani oil". Use transparent background, legible high-contrast type, precise spacing and clean edges. Remove background haze/glow; preserve the emblem and label spelling.
+Output: public/assets/khushi-logo-purity.png
+Original retained: public/assets/logo.png
+Placement: header and homepage banner; additional HTML text preserves label readability at small sizes.

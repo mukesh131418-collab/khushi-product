@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.*
+!.env.example
+.git
+tests
+README.md
+database-schema.md
+preview.png
+logo-design-notes.txt
